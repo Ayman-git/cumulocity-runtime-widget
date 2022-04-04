@@ -21,8 +21,8 @@ import '~styles/index.css';
             provide: HOOK_COMPONENTS,
             multi: true,
             useValue: {
-                id: 'acme.test.widget',
-                label: 'Test widget',
+                id: 'acme.DewaSwitch.widget',
+                label: 'Dewa Switch widget',
                 description: 'Displays some mirrored text',
                 component: WidgetDemo,
                 configComponent: WidgetConfigDemo,
